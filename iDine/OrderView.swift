@@ -8,11 +8,39 @@
 import SwiftUI
 
 struct OrderView: View {
+    @EnvironmentObject var order: Order
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                Section {
+                    ForEach(order.items) { item in
+                        HStack {
+                            Text(item.name)
+                            Spacer()
+                            Text("$\(item.price)")
+                        }
+                    }
+                    .onDelete(perform: { indexSet in
+                        order.items.remove(atOffsets: indexSet)
+                    })
+                }
+                
+                Section {
+                    NavigationLink("Place Order") {
+                        CheckoutView()
+                    }
+                }
+                .disabled(order.items.isEmpty)
+            }
+            .navigationTitle("Order")
+            .toolbar {
+                EditButton()
+            }
+        }
     }
 }
 
 #Preview {
-    OrderView()
+    OrderView().environmentObject(Order())
 }

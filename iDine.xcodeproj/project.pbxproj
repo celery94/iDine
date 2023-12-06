@@ -17,6 +17,9 @@
 		1BBE3F9E2B1C9B87002434FC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBE3F9C2B1C9B87002434FC /* Order.swift */; };
 		1BBE3FA02B1DF292002434FC /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBE3F9F2B1DF292002434FC /* ItemRow.swift */; };
 		1BBE3FA22B1DFA54002434FC /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBE3FA12B1DFA54002434FC /* ItemDetail.swift */; };
+		1BBE3FA42B1F4233002434FC /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBE3FA32B1F4233002434FC /* OrderView.swift */; };
+		1BBE3FA62B1F42F5002434FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBE3FA52B1F42F5002434FC /* MainView.swift */; };
+		1BBE3FA82B1F4434002434FC /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBE3FA72B1F4434002434FC /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		1BBE3F9C2B1C9B87002434FC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
 		1BBE3F9F2B1DF292002434FC /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		1BBE3FA12B1DFA54002434FC /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		1BBE3FA32B1F4233002434FC /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		1BBE3FA52B1F42F5002434FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1BBE3FA72B1F4434002434FC /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,10 @@
 				1BBE3F9F2B1DF292002434FC /* ItemRow.swift */,
 				1BBE3FA12B1DFA54002434FC /* ItemDetail.swift */,
 				1BBE3F892B1C9A8B002434FC /* iDineApp.swift */,
+				1BBE3FA72B1F4434002434FC /* CheckoutView.swift */,
 				1BBE3F8B2B1C9A8B002434FC /* ContentView.swift */,
+				1BBE3FA52B1F42F5002434FC /* MainView.swift */,
+				1BBE3FA32B1F4233002434FC /* OrderView.swift */,
 				1BBE3F8D2B1C9A8C002434FC /* Assets.xcassets */,
 				1BBE3F8F2B1C9A8C002434FC /* Preview Content */,
 			);
@@ -157,6 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BBE3FA22B1DFA54002434FC /* ItemDetail.swift in Sources */,
+				1BBE3FA62B1F42F5002434FC /* MainView.swift in Sources */,
+				1BBE3FA82B1F4434002434FC /* CheckoutView.swift in Sources */,
+				1BBE3FA42B1F4233002434FC /* OrderView.swift in Sources */,
 				1BBE3F8C2B1C9A8B002434FC /* ContentView.swift in Sources */,
 				1BBE3F8A2B1C9A8B002434FC /* iDineApp.swift in Sources */,
 				1BBE3F9E2B1C9B87002434FC /* Order.swift in Sources */,
